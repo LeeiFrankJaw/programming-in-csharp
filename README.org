@@ -1,0 +1,13 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+
+Go through the book [[progcsharp][Programming in C#]].
+
+* Listing 1
+
+The code ~Thread.Sleep(0)~ doesn't cause execution to immediately
+switch to another thread, at least on my Linux machine.  So I have
+modified it to ~Thread.Sleep(1)~.
+
+
+#+LINK: progcsharp http://amzn.com/0735676828
